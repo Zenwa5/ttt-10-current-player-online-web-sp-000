@@ -3,9 +3,10 @@ def turn_count(board)
   board.each do |turn|
     if turn == "X"
     counter += 1
-  elsif 
+  elsif
     turn == "O"
     counter += 1
+  else
     puts "#{counter}"
   end
 end
