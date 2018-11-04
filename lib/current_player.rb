@@ -10,5 +10,4 @@ def turn_count(board)
     puts "#{counter}"
   end
 end
-turn_count(board) = counter
-end;
+end
